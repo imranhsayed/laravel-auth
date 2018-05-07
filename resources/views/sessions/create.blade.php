@@ -17,8 +17,4 @@
         </div>
     </form>
     @include( 'layouts.errors' )
-
-    @if( Auth::check() )
-        {{'logged in'}}
-    @endif
     @endsection
